@@ -1,0 +1,26 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* select all elemts of the same king */
+p{
+  color: red;
+}
+/* select classes */
+.note{
+  font-size: 20px;
+}
+/* select id */
+#id-selector-demo{
+  color: green;
+}
+/* select a particular attribute or what its equal to */
+li[value="4"]{
+  color: blue;
+}
+/* select everything */
+*{
+  text-align: center;
+}
